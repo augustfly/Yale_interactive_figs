@@ -1,6 +1,6 @@
 # Generating Interactive Figures And Displays For Publications & Websites
 
-- Tuesday January 30, 2024 12:00 am
+- Tuesday January 30, 2024 1:30 pm
 - Marlar lounge (Building 37, 2nd floor. When exiting the elevator, turn left and look for the entrance on the left side of the hallway.)
 
 This is a hands-on activity. **Bring your laptop and a dataset of your choice**, and leave with one (or more) interactive figures ready to submit with your next ApJ article.
