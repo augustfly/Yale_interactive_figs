@@ -1,18 +1,18 @@
 # Generating Interactive Figures And Displays For Publications & Websites
 
-- Tuesday January 30, 2024 1:30 pm
-- Marlar lounge (Building 37, 2nd floor. When exiting the elevator, turn left and look for the entrance on the left side of the hallway.)
+- Friday March XX, 2024 YYY pm
+- Location: Kline Tower -- TBD ()
 
 This is a hands-on activity. **Bring your laptop and a dataset of your choice**, and leave with one (or more) interactive figures ready to submit with your next ApJ article.
 
 ## Installation instructions
-All the examples that I show will be in Python. If you don't have Python, I recommend the Anaconda distribution. You can download it here: https://www.anaconda.com/products/individual
+All the examples that I show will be in Python. If you don't have Python, I recommend the Anaconda (miniconda) distribution. You can download it here: https://www.anaconda.com/products/individual (https://docs.conda.io/projects/miniconda/en/latest/)
 
-Once you have Anaconda installed, make a new environment for this workshop by opening a terminal and typing:
+Once you have Anaconda (miniconda) installed, make a new environment for this workshop by opening a terminal and typing:
 ```
 conda create -n interactive_figures python=3.11 jupyter numpy matplotlib astropy
 ```
-while will install the package I used for the examples and a few more. Then activate the environment by typing
+which will install the packages used for the examples plus a few more. Then activate the environment by typing
 ```
 conda activate interactive_figures
 ```
@@ -22,6 +22,7 @@ and install the plotting packages:
 pip install mpld3
 pip install bokeh
 pip install x3d
+pip install plotly
 ```
 
 I'm going to use Jupyter notebooks for the examples, but you can use all packages on the command line as well.
