@@ -1,12 +1,12 @@
 # Generating Interactive Figures And Displays For Publications & Websites
 
-- Friday March XX, 2024 YYY pm
+- Wednesday, February 21, 2024 12n
 - Location: Kline Tower -- TBD ()
 
-This is a hands-on activity. **Bring your laptop and a dataset of your choice**, and leave with one (or more) interactive figures ready to submit with your next ApJ article.
+This is a hands-on activity. **Bring your laptop and a dataset of your choice**, and leave with one (or more) interactive figures ready to submit with your next Journal article.
 
 ## Installation instructions
-All the examples that I show will be in Python. If you don't have Python, I recommend the Anaconda (miniconda) distribution. You can download it here: https://www.anaconda.com/products/individual (https://docs.conda.io/projects/miniconda/en/latest/)
+All the examples that will be in Python. If you don't have Python, I recommend the Anaconda (miniconda) distribution. You can download it here: https://www.anaconda.com/products/individual (https://docs.conda.io/projects/miniconda/en/latest/)
 
 Once you have Anaconda (miniconda) installed, make a new environment for this workshop by opening a terminal and typing:
 ```
@@ -25,18 +25,25 @@ pip install x3d
 pip install plotly
 ```
 
-I'm going to use Jupyter notebooks for the examples, but you can use all packages on the command line as well.
+We will be using Jupyter notebooks for the examples, but you can use all packages on the command line as well.
 
 
 ## Why interactive figures?
-Astronomers have long used static figures and more recently movies in publications. However, in recent years, more and more journals allow interactive figures as electronic material which allow the reader to zoom, pan, click on objects in the scatter plot for more information, rotate 3D displays etc. This gives the reader of your article a way to explore more of the data you show, be more engaged, and understand your points better – hopefully leading to more citations!
+Astronomers have long used static figures and more recently (since 1995!) movies in publications. However, in recent years, more and more journals allow interactive figures as electronic material that allow the reader to zoom, pan, click on objects in the scatter plot for more information, rotate 3D displays etc. This gives the reader of your article a way to explore more of the data you show, be more engaged, and understand your points better – hopefully leading to more citations!
 
 Also, the same animations and interactive figures can be used on your own website, in talks, or to share with collaborators so they can easily zoom into a lightcurve, bin up a spectrum etc.
 
-With the right plotting packages, making an interactive figure is no more complicated than making a pdf or png; I start off by showing a few examples in Python that I have personally used before (mpld3, bokeh, x3d) for those new to making interactive figures and then we’ll hack and make figures together. Bring your laptop and a dataset (table, image, catalog, …) you want to visualize and we’ll brainstorm if an interactive display is useful and what information it can add for the reader. If you’ve made a visualization like that before, bring it and teach us how!
+With the right plotting packages, making an interactive figure is no more complicated than making a pdf or png; I will start by introducing a few examples, borrowed from Moritz Günther or authors submitting to the AAS Journals, then we’ll hack and make figures together. Bring your laptop and a dataset (table, image, catalog, …) you want to visualize and we’ll brainstorm if an interactive display is useful and what information it can add for the reader. If you’ve made a visualization like that before, bring it and teach us how!
 
 ## Examples of how plots might look like
 
-- Optical design of the the Arcus satellite: https://space.mit.edu/home/guenther/ARCUS/3Dview.html
-- Chen et al. (click on “start interaction”): https://iopscience.iop.org/article/10.3847/1538-4357/acb3a6#apjacb3a6f8 – I’ve made very similar plots with the same plotting package that they used myself, but my paper is still under review, so I don’t have link to share.
-- Tully et al. (click on “start interaction”): https://iopscience.iop.org/article/10.3847/1538-4357/aceaf3#apjaceaf3f13 – This one looks cool!
+- You can find all the Interactive Graphics in the AAS Journals using the AstroExplorer (select "Interactive Figures" from the facets on the left): https://www.astroexplorer.org/
+- X3D examples:
+    - Optical design of the the Arcus satellite: https://space.mit.edu/home/guenther/ARCUS/3Dview.html
+    - 3D mesh models of PNs in Danehkar (2022) [Figure 5, click on "start interaction"]: https://doi.org/10.3847/1538-4365/ac5cca
+    - 3D visualization of outflows traced by 12CO in Lu et al. (2018) [Figures 12-24]: https://doi.org/10.3847/1538-4357/aaad11 (using tdviz:https://github.com/xinglunju/tdviz)
+- Bokeh examples:
+    - Chen et al. 2023 [Figures 8-11, (click on “start interaction”)]: https://doi.org/10.3847/1538-4357/acb3a6
+- Plotly Examples:
+    - Distribution of the C18O (1–0) velocity centroids of 30 identified filaments, Yoo et al. (2023) [Figure 9]: https://doi.org/10.3847/1538-4357/acf8c2
+- Tully et al. (click on “start interaction”): https://iopscience.iop.org/article/10.3847/1538-4357/aceaf3#apjaceaf3f13 – These are pretty cool. They use SketchFab to host the 3D elements for the interactive graphic. We won't talk about SketchFab graphics today.
