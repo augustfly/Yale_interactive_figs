@@ -29,11 +29,19 @@ We will be using Jupyter notebooks for the examples, but you can use all package
 
 
 ## Why interactive figures?
-Astronomers have long used static figures and more recently (since 1995!) movies in publications. However, in recent years, more and more journals allow interactive figures as electronic material that allow the reader to zoom, pan, click on objects in the scatter plot for more information, rotate 3D displays etc. This gives the reader of your article a way to explore more of the data you show, be more engaged, and understand your points better – hopefully leading to more citations!
+Astronomers have long used static figures and more recently (since 1995!) movies in publications. However, in recent years, more and more journals allow interactive figures as electronic material that allow the reader to zoom, pan, click on objects in the scatter plot for more information, rotate 3D displays etc. The AAS Journals have supported inline (HTML) interactive graphics since 2014; authors have published nearly 200 such figures so far. Interactive Figures give the reader of your article a way to explore more of the data you show, be more engaged, and understand your points better – hopefully leading to more citations!
 
 Also, the same animations and interactive figures can be used on your own website, in talks, or to share with collaborators so they can easily zoom into a lightcurve, bin up a spectrum etc.
 
 With the right plotting packages, making an interactive figure is no more complicated than making a pdf or png; I will start by introducing a few examples, borrowed from Moritz Günther or authors submitting to the AAS Journals, then we’ll hack and make figures together. Bring your laptop and a dataset (table, image, catalog, …) you want to visualize and we’ll brainstorm if an interactive display is useful and what information it can add for the reader. If you’ve made a visualization like that before, bring it and teach us how!
+
+## General Steps/Workflow
+
+1. Select a dataset used in a bunch related graphs for a manuscript. Such a dataset makes for good, first example because you find yourself often "reprojecting" the same data different ways for multiple "static" figures in your manuscript;
+2. Use a toolkit to create a multi-view or interactive view of that dataset;
+3. Package the graphic up for submission to a Journal;
+4. Prepare a separate package of data, notebooks and scripts that document and explain how the graphic was created.
+5. Submit the graphic and this "data behind the figure" to the Journal.
 
 ## Examples of how plots might look like
 
