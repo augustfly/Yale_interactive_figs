@@ -1,7 +1,7 @@
 # Generating Interactive Figures And Displays For Publications & Websites
 
-- Wednesday, February 21, 2024 12n
-- Location: Kline Tower -- TBD ()
+- Tuesday, February 20, 2024 12n
+- Location: Kline Tower -- Rm 501
 
 This is a hands-on activity. **Bring your laptop and a dataset of your choice**, and leave with one (or more) interactive figures ready to submit with your next Journal article.
 
