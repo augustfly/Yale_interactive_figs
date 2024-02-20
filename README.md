@@ -24,6 +24,12 @@ pip install bokeh
 pip install x3d
 pip install plotly
 ```
+other packages used in this Tutorial:
+```
+pip install pyvo
+pip install mocpy
+pip install ipyaladin
+```
 
 We will be using Jupyter notebooks for the examples, but you can use all packages on the command line as well.
 
@@ -33,7 +39,7 @@ Astronomers have long used static figures and more recently (since 1995!) movies
 
 Also, the same animations and interactive figures can be used on your own website, in talks, or to share with collaborators so they can easily zoom into a lightcurve, bin up a spectrum etc.
 
-With the right plotting packages, making an interactive figure is no more complicated than making a pdf or png; I will start by introducing a few examples, borrowed from Moritz Günther or authors submitting to the AAS Journals, then we’ll hack and make figures together. Bring your laptop and a dataset (table, image, catalog, …) you want to visualize and we’ll brainstorm if an interactive display is useful and what information it can add for the reader. If you’ve made a visualization like that before, bring it and teach us how!
+With the right plotting packages, making an interactive figure is no more complicated than making a pdf or png; I will start by introducing a few examples, borrowed from Moritz Günther or authors submitting to the AAS Journals, then we’ll hack and make figures together. Bring your laptop and a dataset (table, image, catalog, …) you want to visualize, and we’ll brainstorm if an interactive display is useful and what information it can add for the reader. If you’ve made a visualization like that before, bring it and teach us how!
 
 ## General Steps/Workflow
 
@@ -55,3 +61,19 @@ With the right plotting packages, making an interactive figure is no more compli
 - Plotly Examples:
     - Distribution of the C18O (1–0) velocity centroids of 30 identified filaments, Yoo et al. (2023) [Figure 9]: https://doi.org/10.3847/1538-4357/acf8c2
 - Tully et al. (click on “start interaction”): https://iopscience.iop.org/article/10.3847/1538-4357/aceaf3#apjaceaf3f13 – These are pretty cool. They use SketchFab to host the 3D elements for the interactive graphic. We won't talk about SketchFab graphics today.
+
+## Resources
+
+- [plotly](https://plotly.com/python/getting-started/)
+- [bokeh](https://docs.bokeh.org/en/latest/docs/first_steps.html#first-steps)
+- [ipyaladin](https://github.com/cds-astro/ipyaladin)
+
+
+## Articles / Data used
+
+- Gaia-based Isochronal, Kinematic, and Spatial Analysis of the epsilon Cha Association, [D. Annie Dickson-Vandervelde et al 2021 AJ 161 87](https://doi.org/10.3847/1538-3881/abd0fd) 
+    - Using Vizier data extracted from the article: [J/AJ/161/87](https://doi.org/10.26093/cds/vizier.51610087) in FITS format
+- The Lyα Reference Sample. XIV. Lyα Imaging of 45 Low-redshift Star-forming Galaxies and Inferences on Global Emission, [Jens Melinder et al 2023 ApJS 266 15](https://doi.org/10.3847/1538-4365/acc2b8) _with six machine-readable tables in the article_.
+    - Vizier version (w/Notebook) [vizier:J/ApJS/266/15](https://doi.org/10.26093/cds/vizier.22660015)
+- The Swift Deep Galactic Plane Survey (DGPS) Phase I Catalog, [B. O'Connor et al 2023 ApJS 269 49](https://doi.org/10.3847/1538-4365/ad0228), _with two machine-readable tables in the article_
+
